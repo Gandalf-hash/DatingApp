@@ -30,6 +30,7 @@
               "node_modules/bootswatch/dist/united/bootstrap.css",
               "./node_modules/font-awesome/css/font-awesome.min.css",
               "node_modules/ngx-toastr/toastr.css",
+              "node_modules/ngx-spinner/animations/line-scale-party.css",
               "src/styles.css"
               
             ],
@@ -57,6 +58,7 @@
               "vendorChunk": true,
               "extractLicenses": false,
               "sourceMap": true,
+              "serviceWorker": false,
               "namedChunks": true
             }
           },

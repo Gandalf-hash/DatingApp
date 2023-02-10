@@ -4,12 +4,12 @@ import { NgxGalleryModule } from '@kolkov/ngx-gallery';
 import { NgxGalleryAnimation } from '@kolkov/ngx-gallery/public-api';
 import { Member } from 'src/app/_models/member';
 import { MembersService } from 'src/app/_services/members.service';
-
 @Component({
   selector: 'app-member-detail',
   templateUrl: './member-detail.component.html',
   styleUrls: ['./member-detail.component.css']
 })
+  
 export class MemberDetailComponent {
   member: Member | undefined;
   galleryOptions: NgxGalleryModule [] = [];

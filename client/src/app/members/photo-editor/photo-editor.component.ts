@@ -8,6 +8,7 @@ import { AccountService } from 'src/app/_services/account.service';
 import { MembersService } from 'src/app/_services/members.service';
 import { environment } from 'src/environments/environment';
 
+
 @Component({
   selector: 'app-photo-editor',
   templateUrl: './photo-editor.component.html',

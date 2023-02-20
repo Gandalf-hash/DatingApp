@@ -4,6 +4,7 @@ using API.Extensions;
 using API.Helpers;
 using API.Interfaces;
 using AutoMapper;
+using CloudinaryDotNet.Actions;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
@@ -39,7 +40,6 @@ namespace API.Controllers
 
         }
 
-       
         [HttpGet("{username}")]
 
         public async Task<ActionResult<MemberDto>> GetUser(string username)

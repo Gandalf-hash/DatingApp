@@ -1,8 +1,6 @@
 using API.DTOs;
 using API.Entities;
 using API.Helpers;
-using Microsoft.AspNetCore.Components.Forms;
-using Microsoft.EntityFrameworkCore.Query.Internal;
 
 namespace API.Interfaces
 {
@@ -13,7 +11,6 @@ namespace API.Interfaces
         Task<Message> GetMessage(int id);
         Task<PagedList<MessageDto>> GetMessagesforUser(MessageParams messageParams);
         Task<IEnumerable<MessageDto>> GetMessageThread(string  currentUserName, string RecipientUsername);
-        Task<bool> SaveAllAsync();
         void AddGroup(Group group);
         void RemoveConnection(Connection connection);
         Task<Connection> GetConnection(string connectionId);
